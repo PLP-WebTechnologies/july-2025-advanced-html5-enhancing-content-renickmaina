@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple HTML Form</title>
+</head>
+<body>
+
+<h1>Registration Form</h1>
+
+<!-- A Simple List -->
+<ol>
+    <li>Fill your details</li>
+    <li>Check info</li>
+    <li>Submit</li>
+</ol>
+
+<!-- A Simple Table -->
+<table border="2">
+    <tr>
+        <th>Course</th><th>Duration</th></tr>
+    <tr>
+        <td>Web Dev</td><td>3 Months</td></tr>
+    <tr>
+        <td>Data Analysis</td><td>2 Months</td></tr>
+</table>
+<!--Media-->
+<video width="240" height="180" controls>
+    <source src="Video/VID_20241213_111911_811.mp4"type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<!--A simple Form -->
+<form>
+    <p><input type="text" name="name" placeholder="Enter Full Name" required></p>
+    <p><input type="email" name="email" placeholder="Enter Email" required></p>
+    <p><input type="password" name="pass" placeholder="Enter Password" required></p>
+    <p><input type="tel" name="phone" placeholder="Enter Phone Number" required></p>
+    <p><input type="date" name="dob" required></p>
+    <p>
+        <select name="course" required>
+            <option value="">Select Course</option>
+            <option>Web Dev</option>
+            <option>Python</option>
+        </select>
+    </p>
+    <p>
+        <label><input type="radio" name="mode" required>Online</label>
+        <label><input type="radio" name="mode">Onsite</label>
+    </p>
+    <p><button type="submit">Submit</button></p>
+</form>
+
+</body>
+</html>
